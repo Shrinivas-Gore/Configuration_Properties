@@ -1,1 +1,10 @@
-msg : welcome to java
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/student
+    username: root
+    password: Shrii@0816
+  jpa:
+    properties:
+      show-sql: true
+      hbm-ddl-auto: update
+      format-sql: true
