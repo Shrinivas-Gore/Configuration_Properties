@@ -1,1 +1,8 @@
 msg: hello java
+spring:
+ cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Shrinivas-Gore/Properties.git
+          clone-on-start: true
